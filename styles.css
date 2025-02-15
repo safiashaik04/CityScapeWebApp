@@ -79,10 +79,9 @@ body, html {
     background: white;
 }
 
-
 .airplane-gif {
     position: absolute;
-    width: 100px;
+    width: 300px;
     height: 150px;
     top: 20px;
     left: -120px;
@@ -107,7 +106,7 @@ body, html {
 
 .car-gif {
     position: absolute;
-    width: 120px; /* Increased size */
+    width: 120px;
     height: auto;
     bottom: 30px;
     animation: moveCar 5s linear infinite;
@@ -153,3 +152,12 @@ body, html {
 }
 
 
+
+.duck-gif {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 20px; 
+    bottom: 170px;
+    z-index: 20; 
+}
